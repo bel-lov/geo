@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Timeline</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="timeline"></div>
+
+        <form class="form">
+            <input class="input" placeholder="Введите сообщение" required>
+        </form>
+
+        <div class="modal">
+
+            <div class="modalText">
+                <p>Что-то пошло не так</p>
+                <p>К сожалению, нам не удалось определить ваше местоположение, пожалуйста, дайте разрешение на
+                    использование геолокации, либо введите координаты вручную.</p>
+                <p>Широта и долгота через запятую</p>
+            </div>
+
+            <form class="locationForm">
+                <input class="location" placeholder="Пример: 51.50851, -0.12572">
+                <buttons class="btns">
+                    <button type="button" class="btn exit">Отмена</button>
+                    <button class="btn ok">OK</button>
+                </buttons>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
