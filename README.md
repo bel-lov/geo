@@ -52,7 +52,7 @@
 По нажатию кнопки "Оk" (галочка) запись завершается, далее определяются гео-координаты, если они не доступны, выводится всплывашка с просьбой ввести вручную.
 После чего запись добавляется в виде `<video>` в Timeline. При нажатии "Play" запись должна воспроизводится.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/g6bb55s7392bpre0?svg=true)](https://ci.appveyor.com/project/bel-lov/Geolocation)
+[![Build status](https://ci.appveyor.com/api/projects/status/g6bb55s7392bpre0?svg=true)](https://ci.appveyor.com/project/bel-lov/geo)
 
 
-## https://bel-lov.github.io/Geolocation/
+## https://bel-lov.github.io/geo/
